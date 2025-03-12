@@ -22,6 +22,8 @@ public class SomandoDoisNúmeros {
 
         //SAÍDA DE DADOS
         System.out.println("O resultado é " + resultado);
+        // dúvida!
+        ler.close();
         
 
 
