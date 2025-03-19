@@ -24,9 +24,9 @@ public class Calculadora_SomaeSub{
                 double num2 = scanner.nextInt();
                 
                 if (Escolha == 1){
-                    System.out.println("O resultado da soma é: " + (num1 + num2));    
+                    System.out.printf("O resultado da soma é: %.2f %n ", (num1 + num2));    
                 } else{
-                    System.out.println("O resultado da subtração é: " + (num1 - num2));
+                    System.out.printf("O resultado da subtração é: %.2f %n ", (num1 - num2));
                 }
             } else{
                 System.out.println("ERRO!! escolha um operador valido!");
