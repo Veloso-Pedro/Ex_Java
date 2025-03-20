@@ -10,10 +10,9 @@ public class Roleta {
 
             int sorte = random.nextInt(11);
 
-            System.out.println(sorte);
 
             System.out.println("Bem-Vindo a Roleta!!!");
-            System.out.println("======================");
+            System.out.println("=============================");
             System.out.println("Selecione um número de 0 á 10"); int esc = scanner.nextInt();
 
             if (sorte == esc){
@@ -31,14 +30,18 @@ public class Roleta {
             System.out.println("Quer jogar denovo?");
             System.out.println("1 - sim");
             System.out.println("2 - não");
+            System.out.println("=============================");
             int esc2 = scanner.nextInt();
-
+            System.out.println("=============================");
+            
             if (esc2 == 2){
+                System.out.println("*****************************");
                 System.out.println("=============================");
                 System.out.println("OBRIGADO POR JOGAR!!!");
                 System.out.println("=============================");
                 break; 
             }
         }
+        scanner.close();
     }
 }
