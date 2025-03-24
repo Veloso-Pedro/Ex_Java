@@ -43,6 +43,6 @@ public class Roleta {
                 break; 
             }
         }
-        scanner.close();
+    scanner.close();
     }
 }
