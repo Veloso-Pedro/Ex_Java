@@ -6,6 +6,8 @@ public class SomandoDoisNúmeros {
         // INSTACIANDO E CRIANDO UM OBJETO DO TIPO SCANNER
         Scanner ler = new Scanner (System.in);
 
+
+        System.out.println("Calculadora de dois número");
         // DECLARANDO AS VARIÁVEIS
         int num1 = 0;
         int num2 = 0;
