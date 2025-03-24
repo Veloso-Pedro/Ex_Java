@@ -13,4 +13,3 @@ public class media {
     }
 }
 
-// preciso fomatar as casas depois da vigula.

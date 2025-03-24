@@ -13,26 +13,34 @@ public class Roleta {
 
 
             System.out.println("Bem-Vindo a Roleta!!!");
-            System.out.println("======================");
-            System.out.println("1 - Jogar!");
-            System.out.println("2 - Sair!");
-            System.out.println("======================");
-            int num1 = scanner.nextInt();
+            System.out.println("=============================");
+            System.out.println("Selecione um número de 0 á 10"); int esc = scanner.nextInt();
 
-            if (num1 == 1){
-                System.out.println("================================");
-                System.out.println("Selecione um número de 0 á 10"); int esc = scanner.nextInt();
-                System.out.println("================================");
-                if (sorte == esc){
-                    System.out.println("Você Ganhouu!!!");
-                }else if (sorte != esc){
-                    System.out.println("Você perdeu!!!");
-                }
-            }else if (num1 == 2){
-                System.out.println("Obrigado por testar!! ");
-                break;
+            if (sorte == esc){
+                System.out.println("=============================");
+                System.out.println("Você Ganhouu!!!");
+                System.out.println("O número da sorte era: " + sorte);
+                System.out.println("=============================");
             }else{
-                System.out.println("Erro! Digite um valor valido!!");
+                System.out.println("=============================");
+                System.out.println("Você perdeu!!!");
+                System.out.println("O número da sorte era: " + sorte);
+                System.out.println("=============================");
+            }
+
+            System.out.println("Quer jogar denovo?");
+            System.out.println("1 - sim");
+            System.out.println("2 - não");
+            System.out.println("=============================");
+            int esc2 = scanner.nextInt();
+            System.out.println("=============================");
+            
+            if (esc2 == 2){
+                System.out.println("*****************************");
+                System.out.println("=============================");
+                System.out.println("OBRIGADO POR JOGAR!!!");
+                System.out.println("=============================");
+                break; 
             }
         }
         scanner.close();
