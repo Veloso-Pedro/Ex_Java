@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalculadordePerímetro {
+public class CalculadordePerimetro {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -9,7 +9,7 @@ public class CalculadordePerímetro {
             System.out.println("Calculadora de Perímetros");
             System.out.println("===========================");
             System.out.println("Escolha qual forma geometrica você deseja: ");
-            System.out.print("1 - Quadrado \n 2 - retangulo \n 3 - triangulo \n 4 - circunferencia \n 5 -  Sair ");
+            System.out.print("1 - Quadrado\n2 - retangulo\n3 - triangulo\n4 - circunferencia\n5 -  Sair ");
             int esc = scanner.nextInt();
 
             if (esc == 1){
