@@ -19,5 +19,6 @@ public class MediaeFrequencia {
         }else{
             System.out.println("Reprovado!!");
         }
+        scn.close();
     }
 }
